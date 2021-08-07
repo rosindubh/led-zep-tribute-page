@@ -1,0 +1,65 @@
+/*import Oswald font from google docs*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*NAV STYLING*/
+.nav {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0px 5px 15px 3px #3F2D93;;
+}
+
+/*four symbols in nav bar*/
+.four-symbols-logo {
+    padding-top: 10px;
+}
+
+/*resize four symbols logo in nav bar*/
+img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+/*position, colour, set inline and remove decoration from list R/H in nav bar*/
+.nav ul li {
+    padding-right: 30px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.nav {
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+
+.main-content {
+    /*background-color: chocolate;*/
+    height: 80vh;
+}
+
+.footer {
+    /*background-color: crimson;*/
+    height: 100px;
+}
+
+.aside {
+    background-color:darkgreen;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+}
