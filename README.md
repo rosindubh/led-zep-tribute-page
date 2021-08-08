@@ -1,2 +1,2 @@
 # led-zep-tribute-page
-A webpage dedicated to the bang Led Zeppelin
+A webpage dedicated to  Led Zeppelin
